@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+/* header */
+.header
+{
+    display: flex;
+    background: bisque;
+    align-items: center;
+    float: right;
+    font-size: 25px;
+}
+
+.navBar ul li
+{
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.uil-moon{
+    font-size: 40px;
+}
+/* side bar */
+
+.sideBar
+{
+    position: absolute;
+    right: 0;
+    top:300px;
+    width: 60px;
+    height: auto;
+    background: beige;
+    font-size: 60px;
+}
+
+.sideBar ul{
+    list-style: none;
+    padding: 0;
+}
